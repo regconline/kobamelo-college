@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="60" viewBox="0 0 200 60">
+  <rect width="60" height="60" rx="8" fill="#003366" />
+  <text x="70" y="35" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#003366">KOBAMELO</text>
+  <text x="70" y="50" font-family="Arial, sans-serif" font-size="12" fill="#87CEEB">COLLEGE</text>
+  <path d="M30 15 L15 30 L30 45 L45 30 Z" fill="#87CEEB" />
+  <circle cx="30" cy="30" r="8" fill="#FFFFFF" />
+</svg>

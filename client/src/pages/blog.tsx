@@ -100,6 +100,13 @@ const Blog = () => {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: index * 0.1, duration: 0.4 }}
                   >
+                    <div className="h-48 overflow-hidden">
+                      <img 
+                        src={post.image} 
+                        alt={post.title}
+                        className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
+                      />
+                    </div>
                     <div className="p-6">
                       <div className="flex items-center mb-3">
                         <Tag className="w-4 h-4 text-skyblue mr-1" />
@@ -119,10 +126,8 @@ const Blog = () => {
                         </div>
                       </div>
                       
-                      <Link to={`/blog/${post.id}`}>
-                        <a className="inline-block bg-darkblue text-white px-4 py-2 rounded-md text-sm hover:bg-skyblue transition duration-300">
-                          Read More
-                        </a>
+                      <Link to={`/blog/${post.id}`} className="inline-block bg-darkblue text-white px-4 py-2 rounded-md text-sm hover:bg-skyblue transition duration-300">
+                        Read More
                       </Link>
                     </div>
                   </motion.div>

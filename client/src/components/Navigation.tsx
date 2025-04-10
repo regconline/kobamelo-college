@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link } from "wouter";
 import { Menu } from "lucide-react";
+import logo from "../assets/logo.svg";
 
 const Navigation = () => {
   const [mobileMenuVisible, setMobileMenuVisible] = useState(false);
@@ -23,9 +24,13 @@ const Navigation = () => {
       <div className="container mx-auto px-6 py-3">
         <div className="flex items-center justify-between">
           <div className="flex items-center">
-            <div className="text-2xl font-bold text-primary">
-              KOBA<span className="text-darkblue">MELO</span> COLLEGE
-            </div>
+            <Link to="/">
+              <img 
+                src={logo} 
+                alt="Kobamelo College Logo" 
+                className="h-10 mr-3"
+              />
+            </Link>
           </div>
           <div className="hidden md:flex items-center space-x-8">
             {navLinks.map((link, index) => (

@@ -78,15 +78,11 @@ const BlogPost = () => {
                 Kobamelo College offers a wide range of programs designed to help you achieve your career goals.
               </p>
               <div className="flex flex-wrap gap-4">
-                <Link to="/#courses">
-                  <a className="bg-darkblue text-white px-4 py-2 rounded-md text-sm hover:bg-skyblue transition duration-300">
-                    Explore Our Courses
-                  </a>
+                <Link to="/#courses" className="bg-darkblue text-white px-4 py-2 rounded-md text-sm hover:bg-skyblue transition duration-300">
+                  Explore Our Courses
                 </Link>
-                <Link to="/#apply">
-                  <a className="border-2 border-darkblue text-darkblue px-4 py-2 rounded-md text-sm hover:bg-lightblue transition duration-300">
-                    Apply Now
-                  </a>
+                <Link to="/#apply" className="border-2 border-darkblue text-darkblue px-4 py-2 rounded-md text-sm hover:bg-lightblue transition duration-300">
+                  Apply Now
                 </Link>
               </div>
             </div>
