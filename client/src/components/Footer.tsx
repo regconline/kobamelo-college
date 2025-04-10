@@ -79,7 +79,10 @@ const Footer = () => {
         </div>
         
         <div className="border-t border-gray-700 pt-6 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-sm text-gray-400 mb-4 md:mb-0">© {new Date().getFullYear()} Kobamelo College. All rights reserved.</p>
+          <div className="mb-4 md:mb-0">
+            <p className="text-sm text-gray-400">© {new Date().getFullYear()} Kobamelo College. All rights reserved.</p>
+            <p className="text-xs text-gray-500 mt-1">Developed by <a href="https://regconline.co.za" target="_blank" rel="noopener noreferrer" className="text-skyblue hover:text-white transition duration-300">REGC Digital</a></p>
+          </div>
           <div className="flex space-x-6">
             <a href="#" className="text-sm text-gray-400 hover:text-skyblue transition duration-300">Privacy Policy</a>
             <a href="#" className="text-sm text-gray-400 hover:text-skyblue transition duration-300">Terms & Conditions</a>
