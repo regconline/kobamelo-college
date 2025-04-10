@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --darkblue: #003366;
+  --skyblue: #87CEEB;
+  --lightblue: #E6F2FF;
+}
+
+/* Custom colors */
+.text-darkblue {
+  color: var(--darkblue);
+}
+
+.bg-darkblue {
+  background-color: var(--darkblue);
+}
+
+.text-skyblue {
+  color: var(--skyblue);
+}
+
+.bg-skyblue {
+  background-color: var(--skyblue);
+}
+
+.bg-lightblue {
+  background-color: var(--lightblue);
+}
+
+.border-skyblue {
+  border-color: var(--skyblue);
+}
+
+/* Hero gradient background */
+.hero-gradient {
+  background: linear-gradient(135deg, #E6F2FF 0%, #87CEEB 50%, #003366 100%);
+}
+
+/* Navigation shadow */
+.nav-shadow {
+  box-shadow: 0 4px 6px -1px rgba(0, 51, 102, 0.1), 0 2px 4px -1px rgba(0, 51, 102, 0.06);
+}
+
+/* Card hover effects */
+.card-hover {
+  transition: all 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+}
+
+/* Smooth scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Pulse animation for CTA buttons */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.pulse-animation {
+  animation: pulse 2s infinite;
+}
+
+/* Gradient text */
+.gradient-text {
+  background: linear-gradient(45deg, #003366, #87CEEB);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
