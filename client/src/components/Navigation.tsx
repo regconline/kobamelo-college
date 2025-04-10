@@ -14,6 +14,7 @@ const Navigation = () => {
     { href: "#about", label: "About", className: "text-gray-700" },
     { href: "#courses", label: "Courses", className: "text-gray-700" },
     { href: "#testimonials", label: "Testimonials", className: "text-gray-700" },
+    { href: "/blog", label: "Blog", className: "text-gray-700" },
     { href: "#contact", label: "Contact", className: "text-gray-700" },
   ];
 

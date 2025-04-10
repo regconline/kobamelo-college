@@ -265,12 +265,44 @@ export const faqs = [
   }
 ];
 
+// Blog Posts
+export const blogPosts = [
+  {
+    id: "1",
+    title: "The Importance of Early Childhood Development Education",
+    excerpt: "Early childhood education plays a crucial role in a child's development. Learn why investing in ECD is essential for long-term success.",
+    author: "Sarah K.",
+    date: "February 15, 2025",
+    category: "Education",
+    content: "Early childhood development (ECD) forms the foundation of a child's future learning, health, and overall well-being. Research has shown that the first five years of a child's life are critical for brain development, with over 90% of brain growth occurring during this period.\n\nQuality early childhood education not only prepares children for formal schooling but also develops essential life skills like problem-solving, communication, and social interaction. Children who receive proper early education are more likely to perform better academically in later years, have higher graduation rates, and are less likely to require remedial education.\n\nAt Kobamelo College, our ECD program is designed to provide practitioners with the knowledge and skills needed to create stimulating learning environments that nurture the whole child. Our comprehensive curriculum covers child development theories, classroom management techniques, and age-appropriate learning activities.\n\nInvesting in early childhood education is not just beneficial for children and families, but for society as a whole. Studies have shown that every rand invested in quality ECD programs yields a return of up to 13 rands in public benefits through reduced remedial education costs, increased productivity, and lower crime rates."
+  },
+  {
+    id: "2",
+    title: "Safety Management in the Workplace: Best Practices",
+    excerpt: "Workplace safety is a critical aspect of business operations. Discover best practices for implementing effective safety management systems.",
+    author: "John M.",
+    date: "January 30, 2025",
+    category: "Health & Safety",
+    content: "Workplace safety is not just a legal requirement but a moral obligation and good business practice. A comprehensive safety management system protects employees, prevents accidents, and saves companies from costly litigation and productivity losses.\n\nEffective safety management begins with a strong commitment from leadership and involves the active participation of all employees. Key components include hazard identification, risk assessment, proper training, regular inspections, and continuous improvement.\n\nSome best practices for workplace safety include:\n\n1. Conducting regular safety audits and inspections\n2. Providing comprehensive training for all employees\n3. Establishing clear safety policies and procedures\n4. Encouraging reporting of near-misses and unsafe conditions\n5. Regularly reviewing and updating safety protocols\n\nAt Kobamelo College, our Safety Management program equips professionals with the knowledge and skills to develop and implement effective safety systems. Our graduates are trained to identify hazards, conduct risk assessments, and ensure compliance with health and safety regulations.\n\nRemember that safety is not just about following rules—it's about creating a culture where everyone takes responsibility for their own safety and the safety of others."
+  },
+  {
+    id: "3",
+    title: "Computer Literacy: A Must-Have Skill in Today's Digital World",
+    excerpt: "In an increasingly digital world, computer literacy has become essential for career success. Learn how it can open doors to new opportunities.",
+    author: "Gloria M.",
+    date: "January 10, 2025",
+    category: "Technology",
+    content: "In today's digital era, computer literacy is no longer optional—it's a fundamental skill required in virtually every industry and profession. From basic office applications to specialized software, technological proficiency has become a key determinant of employability and career advancement.\n\nComputer literacy encompasses more than just knowing how to use a computer. It includes understanding digital information, using productivity software, communicating online, and maintaining digital security. These skills empower individuals to efficiently perform tasks, solve problems, and adapt to new technologies.\n\nThe benefits of computer literacy extend beyond the workplace. Digitally literate individuals can better access information, connect with others, manage personal finances, and participate in online education opportunities.\n\nAt Kobamelo College, our Computer Literacy program is designed for learners at all levels, from beginners to those looking to enhance their existing skills. The curriculum covers essential computer operations, Microsoft Office applications, internet navigation, email communication, and basic troubleshooting.\n\nInvesting in computer literacy education is investing in future success. In a world where technology continues to evolve rapidly, those who can adapt and leverage digital tools will have significant advantages in both professional and personal spheres."
+  }
+];
+
 // Footer Links
 export const quickLinks = [
   { href: "#home", label: "Home" },
   { href: "#about", label: "About Us" },
   { href: "#courses", label: "Courses" },
   { href: "#testimonials", label: "Testimonials" },
+  { href: "/blog", label: "Blog" },
   { href: "#contact", label: "Contact" }
 ];
 
