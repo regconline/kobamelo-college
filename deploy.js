@@ -1,5 +1,5 @@
 import { exec } from 'child_process';
-import pkg from 'gh-pages';
+import pkg from 'main';
 const { publish } = pkg;
 
 console.log('Building app...');
@@ -14,7 +14,7 @@ exec('npm run build', (error, stdout, stderr) => {
   
   // When built, our site will be in dist/client folder
   publish('dist/client', {
-    branch: 'gh-pages',
+    branch: 'main',
     repo: 'https://github.com/regconline/kobamelo-college.git',
     message: 'Auto-deploy from Replit',
     user: {
